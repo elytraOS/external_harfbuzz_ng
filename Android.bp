@@ -185,6 +185,7 @@ cc_library {
     export_include_dirs: ["src"],
     cflags: [
         "-DHAVE_PTHREAD",
+        "-DHB_NO_PRAGMA_GCC_DIAGNOSTIC",
         "-DHAVE_ICU",
         "-DHAVE_ICU_BUILTIN",
         "-DHAVE_UNISTD_H",
